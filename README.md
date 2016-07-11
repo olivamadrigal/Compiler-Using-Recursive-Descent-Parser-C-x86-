@@ -6,3 +6,9 @@ right-recursive version grammar. Compiler outputs an x86 assembly file of the pr
 using the stack to compute postfix arithmetic expressions. The assembly file produced 
 is then compiled into a full program via NASM and gcc which is then executed to output 
 the results.
+
+
+	
+	• PARSER.l  := 	lex /flex file with expression grammar
+	• lab3.sh   :=  shell script for testing compiler
+	• ASSEMBLY_FILE.asm  := file with sample output
